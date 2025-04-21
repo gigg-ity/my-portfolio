@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 400px;
-    background-color: rgb(126, 213, 240);
+    background-color: rgb(255, 255, 255);
     line-height: 2;
     margin-bottom: 100px;
 
@@ -45,11 +45,13 @@ nav ul li a:hover{
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
-    margin: 20px;
+    background-color: rgb(132, 199, 238);
+
+    padding: 100px, 100px;
     border-radius: 10px;
-    box-shadow: #000000;
+    display: fixed;
+    font-size: 2.2 rem;
+    transition: all 0.3s ease;
 }
 
 footer {
@@ -90,9 +92,10 @@ footer {
 }
 .grid-item{
     background-color:rgb(68, 0, 255);
-    padding: 25px;
+    padding: 50px;
     text-align: center;
     Color: white;
+
 }
 
 
@@ -139,4 +142,24 @@ footer {
         text-align: center;
     }
     input[type="submit"]:hover{
-        background-color: green;}
+        background-color: green;
+    }
+    
+    button {
+        background: #f0ed60;
+        color: rgba(0, 0, 0, 0.842);
+        padding: 50px 100px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        display: flex;
+        margin: 2rem auto;
+        transition: all 0.3s ease;
+    }
+    
+    button:hover {
+        background: #45a049;
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
