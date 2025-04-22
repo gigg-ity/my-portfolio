@@ -1,4 +1,4 @@
-let btn = document.getElementById("togglebutton");
+
 
 function printMessage(){
     document.getElementById('button').innerHTML = "More information about Project 1 can be found here";
@@ -13,9 +13,11 @@ function printMessage4(){
     document.getElementById('button4').innerHTML = "More information about Project 4 can be found here";
 }
 
-btn.onClick = () => {
-    document.body.classList.toggle('darkMode');
+function darkmode(){
+    document.getElementById('togglebutton').innerHTML = document.body.classList.toggle('darkMode');
 }
+
+
 
 const form = document.getElementById("Contact Form")
 

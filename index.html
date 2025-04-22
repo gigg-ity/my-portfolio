@@ -77,13 +77,8 @@
         <br><br>
         <!--Dark Mode-->
             <div>
-                <button id="togglebutton"class="togglebutton">Dark mode Toggle</button>
+                <button id="togglebutton"class="togglebutton" onclick="darkMode()">Dark mode Toggle</button>
                 </div>
-                <script>
-                    let btn = document.getElementById("togglebutton");
-                        btn.onClick = () => {
-                        document.body.classList.toggle('darkMode');}
-                </script>
 
         <p id="successMessage" class="success"></p>
         <br><br>
