@@ -1,3 +1,5 @@
+let btn = document.getElementById("togglebutton");
+
 function printMessage(){
     document.getElementById('button').innerHTML = "More information about Project 1 can be found here";
 }
@@ -11,7 +13,9 @@ function printMessage4(){
     document.getElementById('button4').innerHTML = "More information about Project 4 can be found here";
 }
 
-
+btn.onClick = () => {
+    document.body.classList.toggle('darkMode');
+}
 
 const form = document.getElementById("Contact Form")
 
@@ -24,6 +28,8 @@ const emailError = document.getElementById("emailError");
 const numberError = document.getElementById("numberError");
 
 const successMessage = document.getElementById("successMessage");
+
+
 
 form.addEventListener('submit'), function(event){
     nameError.textContent ='';

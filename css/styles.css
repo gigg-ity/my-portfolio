@@ -110,9 +110,10 @@ footer:hover{
         margin: 0;
         padding: 0;
         min-height: 400px;
-        background-color: rgb(126, 213, 240);
+        background-color: var(--primary-color);
         line-height: 1;
         margin-bottom: 100px;
+        color: var(--secondary-color);
     }
     .error {
         color: red;
@@ -210,3 +211,14 @@ footer:hover{
     p{
         font-size: 30px;
     }
+
+/* Darkmode toggle */
+:root {
+    --primary-color: rgb(80, 207, 230);
+    --secondary-color: rgb(255, 255, 255);
+}
+.darkMode{
+    --primary-color: rgb(80, 207, 230);
+    --secondary-color: rgb(0, 0, 0);
+}
+

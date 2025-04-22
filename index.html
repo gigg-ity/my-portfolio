@@ -74,8 +74,19 @@
             <input type="submit"></input></button>
 
         </form>
-        
+        <br><br>
+        <!--Dark Mode-->
+            <div>
+                <button id="togglebutton">Dark mode Toggle</button>
+                </div>
+                <script>
+                    let btn = document.getElementById("togglebutton");
+                        btn.onClick = () => {
+                        document.body.classList.toggle('darkMode');}
+                </script>
+
         <p id="successMessage" class="success"></p>
+        <br><br>
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Ahmad Cheema</p>
