@@ -221,4 +221,21 @@ footer:hover{
     --primary-color: rgb(80, 207, 230);
     --secondary-color: rgb(0, 0, 0);
 }
-
+.togglebutton {
+    background: hsl(0, 0%, 94%);
+    color: rgba(0, 0, 0, 0.842);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    margin: 2rem auto;
+    transition: all 0.3s ease;
+}
+.togglebutton:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+}
